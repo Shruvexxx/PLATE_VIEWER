@@ -11,7 +11,7 @@ export default function App() {
   return (
     <div style={styles.page}>
       <header style={styles.header}>
-        <div style={styles.title}>Plate Viewer (Dummy Data)</div>
+        <div style={styles.title}>Plate Viewer</div>
       </header>
 
       <SearchBar value={query} onChange={setQuery} />
